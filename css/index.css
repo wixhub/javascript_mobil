@@ -1,0 +1,315 @@
+/* GLOBAL STYLES */
+body {
+    background-color: #FFC373;
+}
+
+#bg {
+    width: 320px;
+    height: 320px;
+    background: url("../images/bg.png");
+    text-align: center;
+    position:relative;
+}
+
+#bg img {
+    max-height: 100%;  
+    max-width: 100%; 
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;
+}
+
+#compass {
+    height: 300px;
+}
+
+section {
+    border-radius: 1em;
+    padding: 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    min-width: 280px;
+    min-height: 400px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* MENU */
+ul {
+    list-style-type: none;
+    text-align: center; 
+    width: 122px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+li {
+    display: block;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+  
+li a {
+    display: block;
+    color: #A62F00;
+    font-size: 1em;
+    text-decoration: none;
+    background-color: #66A3D2;
+    border-radius: 9px;
+    border: 0;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #033E6B;
+    color: white;
+}
+
+/* SPECIFIC STYLES */
+.cell {
+    width: 315px;
+}
+
+.line1 {
+    display: inline-block;
+}
+
+.space1 {
+    padding-left: 7px;
+    padding-right: 90px;
+}
+
+.space2 {
+    padding-left: 0px;
+    padding-right: 10px;
+}
+
+.vertiсal { 
+    width: 1ch; 
+    text-align: center; 
+    font-family: monospace, ui-monospace;
+    color: #FF4900; 
+    font-size: 2.2em; 
+    word-wrap: break-word;
+}
+
+.typewriter1 {
+    position: relative;
+    text-align: left;
+    color: brown;
+    font-family: "DejaVu Sans Mono", Menlo, Consolas, "Liberation Mono", Monaco, "Lucida Console", monospace, ui-monospace;
+    font-weight: bold;
+    font-size: 3.2em;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: 2px solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 4px ; /* Adjust as needed */
+    animation: 
+    typing1 1s steps(4, end),
+    blink-caret 1s step-end forwards;
+}
+
+.typewriter2 {
+    text-align: left;
+    position: relative;
+    color: brown;
+    font-family: "DejaVu Sans Mono", Menlo, Consolas, "Liberation Mono", Monaco, "Lucida Console", monospace, ui-monospace;
+    font-weight: bold;
+    font-size: 3.2em;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: 2px solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 8px ; /* Adjust as needed */
+    animation: 
+    typing2 1s steps(8, end),
+    go-down 1s linear forwards,
+    blink-caret 1s step-end forwards;
+}
+
+.typewriter1::first-letter
+{
+    color: #FF9200;
+}
+
+.typewriter2::first-letter
+{
+    color: #FF9200;
+}
+
+/* The typing effect */
+@keyframes typing1 {
+    from { width: 0 }
+    to { width: 4ch }
+}
+
+@keyframes typing2 {
+    from { width: 0 }
+    to { width: 8ch }
+}
+
+@keyframes go-down {
+    0% {
+        transform: translateY(-105px);
+    }
+    100% {
+        transform: none;
+    }
+}
+
+.go_AVA {
+    animation: 
+    go-AVA 1s linear forwards,
+    blink-AVA .5s linear forwards;
+}
+
+@keyframes go-AVA {
+    0% {
+        opacity: 0;
+        transform: translateY(-105px);
+    }
+    100% {
+        transform: none;
+    }
+}
+
+.go_MENU {
+    padding-left: 20px;
+    padding-right: 0px;
+    animation: 
+    go-DATA 2s linear forwards,
+    blink-DATA .5s linear forwards;
+}
+
+@keyframes go-DATA {
+    0%, 60% {
+        opacity: 0;
+    }
+    70%, 90% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 0.9;
+    }
+}
+
+.go_DEV {
+    animation: 
+    go-DEV 1s linear forwards,
+    blink-DEV .5s linear forwards;
+}
+
+@keyframes go-DEV {
+    0% {
+        opacity: 0;
+        transform: translateY(-105px);
+    }
+    100% {
+        transform: none;
+    }
+}
+
+.go_CRIPT {
+    animation: 
+    go-CRIPT 1s linear forwards,
+    blink-CRIPT .5s linear forwards;
+}
+
+@keyframes go-CRIPT {
+    0% {
+        opacity: 0;
+        transform: translateY(-105px);
+    }
+    100% {
+        transform: none;
+    }
+}
+
+.go_LOPER {
+    animation: 
+    go-LOPER 1s linear forwards,
+    blink-LOPER .5s linear forwards;
+}
+
+@keyframes go-LOPER {
+    0% {
+        opacity: 0;
+        transform: translateY(-105px);
+    }
+    100% {
+        transform: none;
+    }
+}
+
+.go_PORTAL {
+    animation: 
+    go-PORTAL 1s linear forwards,
+    blink-PORTAL .5s linear forwards;
+}
+
+@keyframes go-PORTAL {
+    0% {
+        opacity: 0;
+        transform: translateY(-105px);
+    }
+    100% {
+        transform: none;
+    }
+}
+
+.go_ACT {
+    animation: 
+    go-ACT 1s linear forwards,
+    blink-ACT .5s linear forwards;
+}
+
+@keyframes go-ACT {
+    0% {
+        opacity: 0;
+        transform: translateY(-105px);
+    }
+    100% {
+        transform: none;
+    }
+}
+/*end*/
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+}
+
+.contact::after {
+    content: '\2709';
+    color: orange;
+    font-size: 1.2em;
+    animation: 
+    go-contact 1s linear forwards,
+    blink-contact .5s linear forwards;
+}
+
+@keyframes go-contact {
+    0% {
+        opacity: 0;
+        transform: translateY(-105px);
+    }
+    100% {
+        transform: none;
+    }
+}

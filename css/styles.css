@@ -1,0 +1,292 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #00BB3F;
+  font-family: 'Oxygen', sans-serif;
+}
+  
+/** HEADER **/
+#header-nav {
+  background-color: #024E68;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { /* heder */
+  font-family: 'Lora', serif;
+  color: #00BB3F;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #63DD8D;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { 
+  color: #E7E7E7;
+  text-transform: uppercase;
+  font-size: .8em;
+  margin-top: 5px;
+}
+.navbar-brand p span { 
+  vertical-align: middle;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #00BD39;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+#contact {
+  margin: 0px;
+  padding: 15px;
+}
+#contact a {
+  text-align: right;
+  padding-bottom: 0;
+}
+#contact div {
+  color: #00BD39;
+  text-align: right;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #238C47;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+  
+
+/* FOOTER */
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #024E68;
+  border-top: 0;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+
+#other {
+  line-height: 2;
+}
+#other > span {
+  font-size: 1.3em;
+}
+
+/* END FOOTER */
+
+
+/* CV & LL PAGE */
+.container .jumbotron {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-bottom: 5px;
+  color: inherit;
+  background-color: hsl(140, 72%, 34%);
+  box-shadow: 0 0 50px #007920;
+  border: 2px solid #007920;
+}
+
+.profil {
+  background-color: #007929;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+.profil div {
+  margin-top: 10px;
+}
+.profil h3 {
+  margin-top: 0px;
+}
+.profil a {
+  color: #00BB3F;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.position {
+  font-weight: bold;
+  color: #024E68;
+}
+/* END CV & LL PAGE */
+
+
+/* 404 Page, Liste */
+section .page404, .single {
+  border-radius: 1em;
+  padding: 1em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.single h3 {
+  padding: 30px;
+}
+
+.page404, .single {
+  padding: 20px;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.page404 p {
+  padding: 20px;
+}
+
+.page404 p a, .single p a {
+  color: gold;
+  text-decoration: none;
+}
+
+/* END 404 Page, Liste */
+  
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  /* Home Page */
+  .container .jumbotron {
+    height: 75px;
+  }
+  /* End Home Page */
+}
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+
+  /* End Header */
+
+  /* Home Page */
+  .container .jumbotron {
+    height: 58px;
+  }
+  /* End Home Page */
+}
+
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  .container .jumbotron {
+    height: 32px;
+  }
+  /* End Home Page */
+}
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p { /* Text type */
+    font-size: .6em;
+    margin-top: 12px;
+  }
+
+  .profil {
+    margin-top: 30px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #contact-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    background-color: #024E68;
+    color: #00BB3F;
+  }
+  #xs-contact {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  /* End Header */
+
+
+  /* Footer */
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .panel-footer section:nth-child(3) {
+    margin-bottom: 0; /* margin already exists on the whole row */
+  }
+  .panel-footer section hr {
+    width: 50%;
+  }
+  /* End Footer */
+
+  /* Home Page */
+  .container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+  }
+  /* END Home Page */
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  /* End Header */
+  
+  /* Home page */
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+  /* END Home Page */
+}
