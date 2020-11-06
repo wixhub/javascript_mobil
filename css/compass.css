@@ -1,0 +1,47 @@
+/* GLOBAL STYLES */
+
+#bg {
+    width: 320px;
+    height: 320px;
+    background: url("../images/compass.png");
+    text-align: center;
+    position: relative;
+}
+
+#bg img {
+    max-height: 100%;  
+    max-width: 100%; 
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;
+}
+
+#compass {
+    height: 300px;
+}
+
+#datenAlpha, #datenBeta, #datenGamma {
+    width: 10px;
+}
+
+section {
+    border-radius: 1em;
+    padding: 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    min-width: 280px;
+    min-height: 400px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
