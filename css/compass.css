@@ -1,32 +1,5 @@
 /* GLOBAL STYLES */
 
-#bg {
-    width: 320px;
-    height: 320px;
-    background: url("../images/compass.png");
-    text-align: center;
-    position: relative;
-}
-
-#bg img {
-    max-height: 100%;  
-    max-width: 100%; 
-    position: absolute;  
-    top: 0;  
-    bottom: 0;  
-    left: 0;  
-    right: 0;  
-    margin: auto;
-}
-
-#compass {
-    height: 300px;
-}
-
-#datenAlpha, #datenBeta, #datenGamma {
-    width: 10px;
-}
-
 section {
     border-radius: 1em;
     padding: 1em;
@@ -39,9 +12,36 @@ section {
     min-height: 400px;
 }
 
-.card {
+.corpus {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+#scale {
+    width: 320px;
+    height: 320px;
+    background: url("../images/scale.png") no-repeat;
+    text-align: center;
+    position: relative;
+}
+
+#scale img {
+    max-height: 100%;  
+    max-width: 100%; 
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;
+}
+
+#arrow {
+    height: 280px;
+}
+
+#datenAlpha, #datenBeta, #datenGamma {
+    width: 10px;
 }

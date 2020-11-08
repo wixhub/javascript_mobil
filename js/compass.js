@@ -8,7 +8,7 @@ function ausrichtungAuslesen(ereignis) {
     document.getElementById('datenAlpha').innerHTML = winkelAlpha;
     document.getElementById('datenBeta').innerHTML = winkelBeta;
     document.getElementById('datenGamma').innerHTML = winkelGamma;
-    document.getElementById("compass").style.transform = "rotate(" + winkelAlpha + "deg)";
+    document.getElementById("arrow").style.transform = "rotate(" + winkelAlpha + "deg)";
   }
 }
 window.onload = function() {

@@ -1,13 +1,13 @@
 body {
   font-size: 16px;
-  color: #fff;
-  background-color: #00BB3F;
+  color: #be0615;
+  background-color: #fff;
   font-family: 'Oxygen', sans-serif;
 }
   
 /** HEADER **/
 #header-nav {
-  background-color: #024E68;
+  background-color: #be0615;
   border-radius: 0;
   border: 0;
 }
@@ -17,7 +17,7 @@ body {
 }
 .navbar-brand h1 { /* heder */
   font-family: 'Lora', serif;
-  color: #00BB3F;
+  color: lavender;
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
@@ -43,7 +43,7 @@ body {
   margin-top: 10px;
 }
 #nav-list a {
-  color: #00BD39;
+  color: #be0615;
   text-align: center;
 }
 #nav-list a:hover {
@@ -62,12 +62,12 @@ body {
   padding-bottom: 0;
 }
 #contact div {
-  color: #00BD39;
+  color: lavender;
   text-align: right;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #238C47;
+  border: 1px solid #7c0404;
 }
 .navbar-header button.navbar-toggle {
   clear: both;
@@ -81,7 +81,8 @@ body {
   margin-top: 30px;
   padding-top: 35px;
   padding-bottom: 30px;
-  background-color: #024E68;
+  background-color: #be0615;
+  color: #fff;
   border-top: 0;
 }
 .panel-footer div.row {
@@ -96,76 +97,6 @@ body {
 }
 
 /* END FOOTER */
-
-
-/* CV & LL PAGE */
-.container .jumbotron {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-right: 0px;
-  padding-left: 0px;
-  margin-bottom: 5px;
-  color: inherit;
-  background-color: hsl(140, 72%, 34%);
-  box-shadow: 0 0 50px #007920;
-  border: 2px solid #007920;
-}
-
-.profil {
-  background-color: #007929;
-  border-radius: 6px;
-  margin-bottom: 15px;
-}
-.profil div {
-  margin-top: 10px;
-}
-.profil h3 {
-  margin-top: 0px;
-}
-.profil a {
-  color: #00BB3F;
-  text-decoration: none;
-  font-size: 1em;
-}
-
-.position {
-  font-weight: bold;
-  color: #024E68;
-}
-/* END CV & LL PAGE */
-
-
-/* 404 Page, Liste */
-section .page404, .single {
-  border-radius: 1em;
-  padding: 1em;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%)
-}
-
-.single h3 {
-  padding: 30px;
-}
-
-.page404, .single {
-  padding: 20px;
-  font-size: 1.5em;
-  text-align: center;
-}
-
-.page404 p {
-  padding: 20px;
-}
-
-.page404 p a, .single p a {
-  color: gold;
-  text-decoration: none;
-}
-
-/* END 404 Page, Liste */
   
 /********** Large devices only **********/
 @media (min-width: 1200px) {
@@ -224,7 +155,7 @@ section .page404, .single {
   }
 
   #collapsable-nav a { /* Collapsed nav menu text */
-    font-size: 1.2em;
+    font-size: 1.5em;
   }
   #collapsable-nav a span { /* Collapsed nav menu glyph */
     font-size: 1em;
@@ -236,8 +167,8 @@ section .page404, .single {
     display: block;
     margin: 0 20px;
     padding: 10px;
-    background-color: #024E68;
-    color: #00BB3F;
+    background-color: #be0615;
+    color: lavender;
   }
   #xs-contact {
     margin-top: 5px;
