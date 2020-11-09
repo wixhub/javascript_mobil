@@ -78,8 +78,9 @@ body {
 
 /* FOOTER */
 .panel-footer {
-  margin-top: 30px;
-  padding-top: 35px;
+  width: 100%;
+  margin-top: 10px;
+  padding-top: 10px;
   padding-bottom: 30px;
   background-color: #be0615;
   color: #fff;
@@ -97,38 +98,45 @@ body {
 }
 
 /* END FOOTER */
-  
+
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-  /* Home Page */
-  .container .jumbotron {
-    height: 75px;
+  /* Page */
+  
+  #main-content {
+    height: 100%;
   }
-  /* End Home Page */
+  /* End Page */
+  footer  {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
 }
 
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
-  /* Header */
-
-  /* End Header */
-
-  /* Home Page */
-  .container .jumbotron {
-    height: 58px;
+  /* Page */
+  #main-content {
+    height: 100%;
   }
-  /* End Home Page */
+  /* End Page */
+  footer  {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
 }
 
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-  /* Home Page */
+  /* Page */
   .container .jumbotron {
     height: 32px;
   }
-  /* End Home Page */
+  /* End Page */
 }
 
 
@@ -192,12 +200,12 @@ body {
   }
   /* End Footer */
 
-  /* Home Page */
+  /* Page */
   .container .jumbotron {
     margin-top: 30px;
     padding: 0;
   }
-  /* END Home Page */
+  /* END Page */
 }
 
 
@@ -210,7 +218,7 @@ body {
   }
   /* End Header */
   
-  /* Home page */
+  /* Page */
   .col-xxs-12 {
     position: relative;
     min-height: 1px;
@@ -219,5 +227,5 @@ body {
     float: left;
     width: 100%;
   }
-  /* END Home Page */
+  /* END Page */
 }
