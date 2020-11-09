@@ -43,11 +43,12 @@ body {
   margin-top: 10px;
 }
 #nav-list a {
-  color: #be0615;
+  font-size: 0.8em;
+  color: lavender;
   text-align: center;
 }
 #nav-list a:hover {
-  background: #E7E7E7;
+  background: #dd5a65;
 }
 #nav-list a span {
   font-size: 1.8em;
@@ -67,7 +68,7 @@ body {
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #7c0404;
+  border: 1px solid #eb9191;
 }
 .navbar-header button.navbar-toggle {
   clear: both;
@@ -149,7 +150,7 @@ body {
   }
   .navbar-brand h1 { /* Name */
     padding-top: 10px;
-    font-size: 5vw; /* 1vw = 1% of viewport width */
+    font-size: 4vw; /* 1vw = 1% of viewport width */
   }
   .navbar-brand p { /* Text type */
     font-size: .6em;
@@ -214,7 +215,7 @@ body {
   /* Header */
   .navbar-brand h1 { /* Name */
     padding-top: 5px;
-    font-size: 6vw;
+    font-size: 4vw;
   }
   /* End Header */
   
