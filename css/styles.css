@@ -1,8 +1,17 @@
+html {
+  height: 100%;
+}
+
 body {
-  font-size: 16px;
+  font-size: 100%;
   color: #be0615;
   background-color: #fff;
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
 }
   
 /** HEADER **/
@@ -33,7 +42,7 @@ body {
   color: #E7E7E7;
   text-transform: uppercase;
   font-size: .8em;
-  margin-top: 5px;
+  margin-top: 7px;
 }
 .navbar-brand p span { 
   vertical-align: middle;
@@ -50,6 +59,7 @@ body {
 
 #nav-list {
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 #nav-list a {
   font-size: 0.8em;
@@ -60,7 +70,7 @@ body {
   background: #dd5a65;
 }
 #nav-list a span {
-  font-size: 1.8em;
+  font-size: 2.5em;
 }
 
 #contact {
