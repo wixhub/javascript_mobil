@@ -229,7 +229,7 @@ body {
 }
 
 
-/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+/********** Super extra small devices only (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
   /* Header */
   .navbar-brand h1 { /* Name */
